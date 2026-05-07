@@ -1,0 +1,135 @@
+{
+  "clientes": [
+    {
+      "id": "CF001",
+      "nombre": "Supermercado El Cruce",
+      "direccion": "Av. 44 N°1250, La Plata",
+      "lat": -34.9205,
+      "lng": -57.9545,
+      "ventana_horaria": { "desde": "08:30", "hasta": "09:00" },
+      "dias": ["lunes", "miercoles", "viernes"],
+      "notas": ""
+    },
+    {
+      "id": "CF002",
+      "nombre": "Kiosco Los Tilos",
+      "direccion": "Calle 7 N°890, La Plata",
+      "lat": -34.9223,
+      "lng": -57.9531,
+      "ventana_horaria": { "desde": "09:15", "hasta": "09:35" },
+      "dias": ["lunes", "martes", "miercoles", "jueves", "viernes"],
+      "notas": ""
+    },
+    {
+      "id": "CF003",
+      "nombre": "Almacén Don Roberto",
+      "direccion": "Calle 13 N°540, La Plata",
+      "lat": -34.9187,
+      "lng": -57.9612,
+      "ventana_horaria": { "desde": "09:45", "hasta": "10:10" },
+      "dias": ["lunes", "jueves"],
+      "notas": ""
+    },
+    {
+      "id": "CF004",
+      "nombre": "Distribuidora Central Sur",
+      "direccion": "Av. 1 N°2100, La Plata",
+      "lat": -34.9310,
+      "lng": -57.9480,
+      "ventana_horaria": { "desde": "10:15", "hasta": "10:45" },
+      "dias": ["lunes", "martes", "miercoles", "jueves", "viernes"],
+      "notas": "Entrar por portón lateral"
+    },
+    {
+      "id": "CF005",
+      "nombre": "Minimarket Plaza",
+      "direccion": "Calle 50 N°345, La Plata",
+      "lat": -34.9255,
+      "lng": -57.9560,
+      "ventana_horaria": { "desde": "10:50", "hasta": "11:10" },
+      "dias": ["martes", "jueves", "sabado"],
+      "notas": ""
+    },
+    {
+      "id": "CF006",
+      "nombre": "Restaurante La Esquina",
+      "direccion": "Diagonal 74 N°780, La Plata",
+      "lat": -34.9240,
+      "lng": -57.9590,
+      "ventana_horaria": { "desde": "11:20", "hasta": "11:45" },
+      "dias": ["lunes", "miercoles", "viernes"],
+      "notas": "Solo ingresar por atrás"
+    },
+    {
+      "id": "CF007",
+      "nombre": "Hotel Grand La Plata",
+      "direccion": "Calle 46 N°605, La Plata",
+      "lat": -34.9198,
+      "lng": -57.9503,
+      "ventana_horaria": { "desde": "12:00", "hasta": "12:20" },
+      "dias": ["lunes", "martes", "miercoles", "jueves", "viernes"],
+      "notas": ""
+    },
+    {
+      "id": "CF008",
+      "nombre": "Bar Cervecería Norte",
+      "direccion": "Av. 19 N°1100, La Plata",
+      "lat": -34.9155,
+      "lng": -57.9575,
+      "ventana_horaria": { "desde": "12:30", "hasta": "13:00" },
+      "dias": ["martes", "viernes"],
+      "notas": ""
+    },
+    {
+      "id": "CF009",
+      "nombre": "Supermercado Berisso",
+      "direccion": "Av. Montevideo N°850, Berisso",
+      "lat": -34.8748,
+      "lng": -57.8896,
+      "ventana_horaria": { "desde": "13:30", "hasta": "14:00" },
+      "dias": ["lunes", "miercoles"],
+      "notas": "Zona Berisso — último tramo del recorrido"
+    },
+    {
+      "id": "CF010",
+      "nombre": "Kiosco Ensenada Centro",
+      "direccion": "Calle Buenos Aires N°300, Ensenada",
+      "lat": -34.8598,
+      "lng": -57.9120,
+      "ventana_horaria": { "desde": "14:15", "hasta": "14:35" },
+      "dias": ["martes", "jueves"],
+      "notas": "Zona Ensenada"
+    },
+    {
+      "id": "CF011",
+      "nombre": "Almacén Villa Elvira",
+      "direccion": "Calle 122 N°1400, Villa Elvira",
+      "lat": -34.9450,
+      "lng": -57.9200,
+      "ventana_horaria": { "desde": "15:00", "hasta": "15:20" },
+      "dias": ["lunes", "jueves"],
+      "notas": ""
+    },
+    {
+      "id": "CF012",
+      "nombre": "Distribuidora Los Hornos",
+      "direccion": "Calle 137 N°3200, Los Hornos",
+      "lat": -34.9620,
+      "lng": -57.9780,
+      "ventana_horaria": { "desde": "15:30", "hasta": "16:00" },
+      "dias": ["miercoles", "viernes"],
+      "notas": "Zona sur — cerrar recorrido por aquí"
+    }
+  ],
+  "vehiculo_default": {
+    "capacidad_max_kg": 500,
+    "punto_partida": {
+      "descripcion": "Depósito Central La Plata",
+      "lat": -34.9085,
+      "lng": -57.9650
+    },
+    "hora_inicio": "08:00",
+    "velocidad_promedio_kmh": 35,
+    "tiempo_descarga_min": 10
+  }
+}
